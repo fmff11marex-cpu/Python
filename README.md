@@ -11,4 +11,4 @@ I am starting from zero and documenting what i learn step by step
 - Python basics
 - Git and GitHub
 - Visual Studio Code
-- face to face 
+- step by step
