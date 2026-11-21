@@ -4,25 +4,30 @@ A collection of Python exercises focused on programming logic, conditional state
 
 ## Projects
 
-### Interactive Calculator 
+###  1. Interactive Calculator  (`calculator.py`) 
 
-A console-based calculator featuring:
-- Basic arithmetic operations
-- Conditional statements and decision-making
-- Number comparison and parity checks
-- Boolean logic (`and`, `or`, `not`)
-- User input and data conversion
+A console-based calculator that demonstrates fundamental Python concepts through interactive operations.
 
-### Hello world 
+Features:
+- Basic arithmetic: addition, subtraction, multiplication, division, and modulo
+- Number comparison
+- Even and odd number checks
+- Positive number and zero checks
+- Boolean logic using `and`, `or`, and `not`)
+- User input and type conversion
+- Conditional statments (`if`, `elif`, `else`)
 
-My first, very simple indtroductory Python program.
+### 2. Hello World (`Hello.py`) 
+
+My first, very simple indtroductory Python program that displays a message in the console. 
 
 ## Technologies 
 
-- Python
-- Visual Studio Code
-- Git & GitHub
+- Programming Language: Python
+- Code Editor: Visual Studio Code
+- Version Control: Git
+- Code Hosting: GitHub
 
-## Focus 
+## Learning Focus 
 
-Developing programing fundamentals, logical thinking, and problem-solving skills through practical coding.
+Developing programing fundamentals, understanding logical structures, and improving problem-solving skills through hands-on coding exercises.
