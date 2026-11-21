@@ -2,21 +2,23 @@ name = input("What is your name?")
 print("Hallo", name)
 number1 = int(input("Enter the first number: "))
 number2 = int(input("Enter the second number: "))
-operation = input("Choose operation: +, -, *, /, %, <, >,: ")
-if operation == "W":
+operation = input("Choose operation: +, -, *, /, %, R, C, P, M, B: ")
+if operation == "+":
     result = number1 + number2 
     print(result)
-elif operation == "A":
+elif operation == "-":
     result = number1 - number2
     print(result)
-elif operation == "S":
+elif operation == "*":
     result = number1 * number2
     print(result)
-elif operation == "D":
-    result = number1 / number2
-    result = round(result)
-    print(result)
-elif operation == "E":
+elif operation == "/":
+    if number2 == 0:
+        print("Error: Cannot divide by zero!")
+    else:
+        result = number1 / number2
+        print(result)
+elif operation == "%":
     result = number1 % number2
     print(result)
 elif operation == "R":
@@ -24,7 +26,7 @@ elif operation == "R":
         print("Even")
     else: 
         print("Odd")
-elif operation == "Q" :
+elif operation == "C":
     if number1 > number2:
         print("First number is bigger")
     elif number1 < number2:
@@ -39,7 +41,7 @@ elif operation == "P":
     else:
         print("No positive numbers") 
 elif operation == "M":
-    if not number1 == 0:
+    if number1 != 0:
         print("Number is not zero")
     else:
         print("Number is zero")
